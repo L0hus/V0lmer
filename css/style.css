@@ -91,6 +91,7 @@ body {
     margin-top: 35%; 
     text-align: start;
     font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    white-space: pre-wrap;
   }
 
   .logo-text-mobile {
@@ -203,6 +204,7 @@ body {
     margin-top: 35%; 
     text-align: start;
     font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    white-space: pre-wrap;
   }
 
   .logo-text-mobile {
@@ -315,6 +317,7 @@ body {
     margin-top: 45%; 
     text-align: start;
     font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    white-space: pre-wrap;
   }
 
   .logo-text-mobile {
@@ -426,6 +429,7 @@ body {
     margin-top: 50%; 
     text-align: start;
     font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    white-space: pre-wrap;
   }
 
   .logo-text-mobile {
@@ -535,6 +539,7 @@ body {
     margin-top: 30%; 
     text-align: start;
     font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    white-space: pre-wrap;
   }
 
   .logo-text-mobile {
