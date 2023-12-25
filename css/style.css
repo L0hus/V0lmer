@@ -54,7 +54,7 @@ body {
 }
 
 .main-mobile pre {
-  font-family: monospace !important;
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
 }
 
 /*320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320*/
