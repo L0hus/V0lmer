@@ -5,8 +5,7 @@
 }
 
 html {
-    scrollbar-width: none !important;
-    -webkit-scrollbar-width: none !important;
+
 }
 
 *,*:before,*:after{
@@ -20,9 +19,6 @@ A:focus,a:active{outline: none;}
 nav,footer,header,aside{display: block};
 
 
-::-webkit-scrollbar {
-    width: 0 !important;
-}
 
 html,body{
     -ms-text-size-adjust: 100%;
@@ -82,6 +78,7 @@ body {
     overflow: hidden;
     visibility: visible;
     opacity: 1;
+    touch-action: auto;
   }
 
   .logo-mobile {
@@ -192,6 +189,7 @@ body {
     overflow: hidden;
     visibility: visible;
     opacity: 1;
+    touch-action: auto;
   }
 
   .logo-mobile {
@@ -302,6 +300,7 @@ body {
     overflow: hidden;
     visibility: visible;
     opacity: 1;
+    touch-action: auto;
   }
 
   .logo-mobile {
@@ -411,6 +410,7 @@ body {
     overflow: hidden;
     visibility: visible;
     opacity: 1;
+    touch-action: auto;
   }
 
   .logo-mobile {
@@ -518,6 +518,7 @@ body {
     overflow: hidden;
     visibility: visible;
     opacity: 1;
+    touch-action: auto;
   }
 
   .logo-mobile {
