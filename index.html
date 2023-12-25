@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Volmer</title>
-        <link rel="icon" href="img/shrug.ico" type="image/x-icon">
-        <link rel="stylesheet" href="css/style.css">
-        <link href='https://fonts.googleapis.com/css?family=VT323' rel='stylesheet'>
-    </head>
-        <div class="main-mobile">
-            <div>
+
                 <pre class="logo-mobile">
  ▄█    █▄   ▄██████▄   ▄█         ▄▄▄▄███▄▄▄▄      ▄████████    ▄████████
 ███    ███ ███    ███ ███       ▄██▀▀▀███▀▀▀██▄   ███    ███   ███    ███
@@ -19,11 +8,7 @@
 ███    ███ ███    ███ ███       ███   ███   ███   ███    █▄  ▀███████████
 ███    ███ ███    ███ ███▌    ▄ ███   ███   ███   ███    ███   ███    ███
  ▀██████▀   ▀██████▀  █████▄▄██  ▀█   ███   █▀    ██████████   ███    ███
-                      ▀                                        ███    ███<br></pre>
-            </div>
-            <p class="logo-text-mobile">To see the full version of the website,<br> open it on your computer</p>
-            <div class="years-container-mobile">
-                <div class="years-21">
+                      ▀                                        ███    ███</pre>
                     <pre class="y21-mobile">
     _______  ________    _______   _____       
  /  ___  \|\   __  \  /  ___  \ / __  \    
@@ -32,9 +17,6 @@
     /  /_/__\ \  \\\  \  /  /_/__   \ \  \ 
    |\________\ \_______\|\________\  \ \__\
     \|_______|\|_______| \|_______|   \|__|</pre>
-                    <p class="y21-text-mobile">Entered USURT to major in Information Security,<br> where he began to get involved in cryptography<br> and became acquainted with pentesting</p>
-                </div>
-                <div>
                     <pre class="y22-mobile">
   _______  ________    _______   _______     
  /  ___  \|\   __  \  /  ___  \ /  ___  \    
@@ -43,9 +25,6 @@
     /  /_/__\ \  \\\  \  /  /_/__  /  /_/__  
    |\________\ \_______\|\________\\________\
     \|_______|\|_______| \|_______|\|_______|</pre>
-                    <p class="y22-text-mobile">We opened an official IT club at the university,<br> where I am an administrator and pentest teacher.<br> We also participate in various projects and<br> startups in the IT field.</p>
-                </div>
-                <div>
                     <pre class="future-mobile">
  ________ ___  ___  _________  ___  ___  ________  _______      
 |\  _____\\  \|\  \|\___   ___\\  \|\  \|\   __  \|\  ___ \     
@@ -54,14 +33,10 @@
   \ \  \_| \ \  \\\  \   \ \  \ \ \  \\\  \ \  \\  \\ \  \_|\ \ 
    \ \__\   \ \_______\   \ \__\ \ \_______\ \__\\ _\\ \_______\
     \|__|    \|_______|    \|__|  \|_______|\|__|\|__|\|_______|</pre>
-                    <p class="future-text-mobile">I want to connect my future with pentesting<br> and I’m doing everything to make this happen</p>
-                </div>
-            </div>
-            <div class="wanted-mobile">
 	            <pre class="wanted-logo-mobile">
 
  
-██╗    ██╗ █████╗ ███╗   ██╗████████╗███████╗██████╗
+ ██╗    ██╗ █████╗ ███╗   ██╗████████╗███████╗██████╗
  ██║    ██║██╔══██╗████╗  ██║╚══██╔══╝██╔════╝██╔══██╗
  ██║ █╗ ██║███████║██╔██╗ ██║   ██║   █████╗  ██║  ██║
  ██║███╗██║██╔══██║██║╚██╗██║   ██║   ██╔══╝  ██║  ██║
@@ -110,12 +85,6 @@
 
     -HTML, CSS, JS and some PHP      %</pre>
                 </pre>
-            </div>
-            <div class="footer-mobile">
-                <a href="http://t.me/lohuss">Telegram: lohuss</a>
-                <a href="mailto:franthuzik@gmail.com$body=Hey!">E-mail: franthuzik@gmail.com</a>
-            </div>
-            <footer class="space-mobile">
                 <pre>
                     ~.       _+ --    +                   ~+_                                                 ~~~ °_                        
                     -  +  . +.. _     °+ ~                     ~°+                                             _ + °+ - .                .      
@@ -168,111 +137,3 @@
                                                                                                  °_~+ .~ °  +       -     °                  ~° 
                                                                                                         ~                                                  
                 </pre>
-            </footer>
-        </div>
-        <script type="text/javascript" src="js/scrollr.js"></script>
-        <script type="text/javascript">
-            var s = skrollr.init();
-        </script>
-        <script>
-            const chars = "×#-_¯—0123456789ABCDEFGHIJKLMNOPQRSTUVWXTZ";
-    
-    var Glitch = function(selector, index, numberOfGlitchedLetter, timeGlitch, timePerLetter, timeBetweenGlitch){
-        this.selector = selector;
-        this.index = index;
-        this.numberOfGlitchedLetter = numberOfGlitchedLetter;
-        this.innerText;
-        this.charArray = [];
-        this.charIndex = [];
-        this.timeGlitch = timeGlitch;
-        this.timeBetweenGlitch = timeBetweenGlitch;
-        this.timePerLetter = timePerLetter;
-        this.maxCount = Math.floor(this.timeGlitch/this.timePerLetter);
-        this.count = 0;
-    }
-    
-    Glitch.prototype.init = function(){
-        this.innerText = this.selector.innerText;
-        this.charArray = this.innerText.split("");
-        if(this.numberOfGlitchedLetter == undefined || this.numberOfGlitchedLetter > this.innerText.length){
-            this.numberOfGlitchedLetter = this.innerText.length;
-        }
-        this.defineCharIndexToRandomize();
-    }
-    
-    Glitch.prototype.defineCharIndexToRandomize = function(){
-        this.charIndex = [];
-        for(let i=0; i<this.numberOfGlitchedLetter; i++){
-            let randCharIndex = Math.floor(Math.random() * this.charArray.length);
-            this.charIndex.push(randCharIndex);
-        }
-    }
-    
-    Glitch.prototype.randomize = function(){
-        //copy the char array
-        let randomString = Array.from(this.charArray);
-        
-        //randomize char
-        for(let i=0; i<this.numberOfGlitchedLetter; i++){
-            let randIndex = Math.floor(Math.random() * chars.length);
-            let randCharIndex = this.charIndex[i];
-            if(randomString[randCharIndex] !== ' '){
-                randomString[randCharIndex] = chars[randIndex];
-            }
-        }
-        this.selector.innerText = randomString.join("");
-    }
-    
-    Glitch.prototype.update = function(interval){
-        if(this.count >= this.maxCount - 1){
-            this.selector.innerText = this.innerText;
-            this.defineCharIndexToRandomize();
-            let ctx = this;
-            let wait = setTimeout(function(){
-                ctx.count = 0;
-            }, this.timeBetweenGlitch);
-        }else{
-            this.randomize();
-            this.count ++;
-        }
-    }
-    
-    Glitch.prototype.glitch = function(){
-        let ctx = this;
-        let interval= setInterval(function(){
-            ctx.update(this);
-          },this.timePerLetter);
-    }
-    
-    var arrayElements;
-    var glitchArray = [];
-    
-    function initAllGlitch(){
-        arrayElements = document.querySelectorAll(".glitch");
-        for(let i=0; i<arrayElements.length; i++){
-            let selector = arrayElements[i];
-            let randLetterNumber = 2 + Math.floor(Math.random() * 3);
-            let randGlitchTime = 400 + Math.floor(Math.random() * 2500);
-            let randGlitchPauseTime = 400 + Math.floor(Math.random() * 3500);
-            let glitch = new Glitch(selector, i, randLetterNumber, 200, 65, randGlitchPauseTime);
-            glitch.init();
-            glitchArray.push(glitch);
-        }
-    }
-    
-    
-    
-    function update(){
-        for(let i=0; i<glitchArray.length; i++){
-            let glitch = glitchArray[i];
-            glitch.glitch();
-        }
-    }
-    
-    initAllGlitch();
-    update();
-        </script>
-        <script type="text/javascript" src="js/asciimorph.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-    </body>
-</html>
