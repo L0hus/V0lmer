@@ -59,6 +59,8 @@ body {
 
 /*320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320*/
 
+/*320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320*/
+
 @media only screen and (max-width: 320px) {
 
 
@@ -78,7 +80,7 @@ body {
     display: block; 
     height: 2600px; 
     position: relative; 
-    overflow: hidden;
+    overflow-x: hidden;
     visibility: visible;
     opacity: 1;
     touch-action: auto;
@@ -155,6 +157,7 @@ body {
   }
 
   .wanted-skills-mobile {
+    font-family: monospace; 
     font-size: 7px;
     text-align: start;
   }
@@ -265,8 +268,8 @@ body {
   }
 
   .wanted-skills-mobile {
-    font-family: 'VT323', monospace; 
-    font-size: 12px;
+    font-family: monospace; 
+    font-size: 8px;
     text-align: start;
   }
 
@@ -375,8 +378,8 @@ body {
   }
 
   .wanted-skills-mobile {
-    font-family: 'VT323', monospace ; 
-    font-size: 14px;
+    font-family: monospace ; 
+    font-size: 9px;
     text-align: start;
   }
 
@@ -485,8 +488,8 @@ body {
   }
 
   .wanted-skills-mobile {
-    font-family: 'VT323', monospace; 
-    font-size: 15.5px;
+    font-family: monospace; 
+    font-size: 10px;
     text-align: start;
   }
 
@@ -597,8 +600,8 @@ body {
   }
 
   .wanted-skills-mobile {
-    font-family: 'VT323', monospace; 
-    font-size: 20px;
+    font-family: monospace; 
+    font-size: 13.5px;
     text-align: start;
     margin-left: 7%;
   }
@@ -612,6 +615,3 @@ body {
     margin-bottom: 5%;
   }
 }
-
-/*1024**1024**1024**1024**1024**1024**1024**1024**1024**1024**1024**1024**1024**1024**1024**1024**1024**1024**1024**1024**1024**1024**1024**1024**1024**1024*/
-
