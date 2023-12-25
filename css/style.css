@@ -90,6 +90,7 @@ body {
     font-size: 6.5px; 
     margin-top: 35%; 
     text-align: center;
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
   .logo-text-mobile {
@@ -149,6 +150,7 @@ body {
   .wanted-logo-mobile {
     font-size: 7px;
     text-align: center;
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
   .wanted-dead-mobile {
@@ -200,6 +202,7 @@ body {
     font-size: 7px; 
     margin-top: 35%; 
     text-align: center;
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
   .logo-text-mobile {
@@ -259,6 +262,7 @@ body {
   .wanted-logo-mobile {
     font-size: 8px;
     text-align: center;
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
   .wanted-dead-mobile {
@@ -310,6 +314,7 @@ body {
     font-size: 8px; 
     margin-top: 45%; 
     text-align: center;
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
   .logo-text-mobile {
@@ -368,6 +373,7 @@ body {
   .wanted-logo-mobile {
     font-size: 9px;
     text-align: center;
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
   .wanted-dead-mobile {
@@ -419,6 +425,7 @@ body {
     font-size: 9px; 
     margin-top: 50%; 
     text-align: center; 
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
   .logo-text-mobile {
@@ -477,6 +484,7 @@ body {
   .wanted-logo-mobile {
     font-size: 11px;
     text-align: center;
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
   .wanted-dead-mobile {
@@ -526,6 +534,7 @@ body {
     font-size: 15px; 
     margin-top: 30%; 
     text-align: center; 
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
   .logo-text-mobile {
@@ -588,6 +597,7 @@ body {
   .wanted-logo-mobile {
     font-size: 15px;
     text-align: center;
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
   .wanted-dead-mobile {
