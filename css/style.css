@@ -80,8 +80,7 @@ body {
     height: 2600px; 
     position: relative; 
     overflow-x: hidden;
-    overflow-y: scroll;
-    visibility: visible;
+    overflow: auto;
     opacity: 1;
     touch-action: auto;
   }
@@ -192,8 +191,7 @@ body {
     height: 2600px; 
     position: relative; 
     overflow-x: hidden;
-    overflow-y: scroll;
-    visibility: visible;
+    overflow: auto;
     opacity: 1;
     touch-action: auto;
   }
@@ -303,8 +301,7 @@ body {
     display: block; 
     height: 2600px; 
     position: relative; 
-    overflow-x: hidden;
-    overflow-y: scroll;
+    overflow: auto;
     visibility: visible;
     opacity: 1;
     touch-action: auto;
@@ -414,8 +411,7 @@ body {
     display: block; 
     height: 2700; 
     position: relative; 
-    overflow-x: hidden;
-    overflow-y: scroll;
+    overflow: auto;
     visibility: visible;
     opacity: 1;
     touch-action: auto;
@@ -524,8 +520,7 @@ body {
   .main-mobile {
     position: relative; 
     overflow-x: hidden;
-    overflow-y: scroll;
-    visibility: visible;
+    overflow: auto;
     opacity: 1;
     touch-action: auto;
   }
