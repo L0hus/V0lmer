@@ -88,7 +88,9 @@ body {
   .logo-mobile {
     font-size: 6.5px; 
     margin-top: 35%; 
-    text-align: center;
+    text-align: start;
+    display: flex;
+    justify-content: center;
   }
 
   .logo-text-mobile {
@@ -200,7 +202,9 @@ body {
   .logo-mobile {
     font-size: 7px; 
     margin-top: 35%; 
-    text-align: center;
+    text-align: start;
+    display: flex;
+    justify-content: center;
   }
 
   .logo-text-mobile {
@@ -312,7 +316,9 @@ body {
   .logo-mobile {
     font-size: 8px; 
     margin-top: 45%; 
-    text-align: center;
+    text-align: start;
+    display: flex;
+    justify-content: center;
   }
 
   .logo-text-mobile {
@@ -423,7 +429,9 @@ body {
   .logo-mobile {
     font-size: 9px; 
     margin-top: 50%; 
-    text-align: center;
+    text-align: start;
+    display: flex;
+    justify-content: center;
   }
 
   .logo-text-mobile {
@@ -532,7 +540,9 @@ body {
   .logo-mobile {
     font-size: 15px; 
     margin-top: 30%; 
-    text-align: center;
+    text-align: start;
+    display: flex;
+    justify-content: center;
   }
 
   .logo-text-mobile {
