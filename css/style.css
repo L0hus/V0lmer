@@ -1,1 +1,619 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+html {
+
+}
+
+*,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+A:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block};
+
+html,body{
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    touch-action: auto;
+}
+
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button:-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit; font-weight: 500;}
+
+a {
+  text-decoration: none;
+  color: #00ff00;
+}
+
+body {
+    background-color: black;
+    font-family: 'VT323', monospace;
+    color: #00ff00;
+    overflow-x: hidden;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.main-mobile pre {
+  font-family: monospace !important;
+}
+
+/*320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320*/
+
+@media only screen and (max-width: 320px) {
+
+
+  .space-mobile {
+    font-family: monospace;
+    margin-top: 25%;
+    position: absolute;
+    left: -90%;
+  }
+
+  .container {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+  }
+  
+  .main-mobile {
+    display: block; 
+    height: 2600px; 
+    position: relative; 
+    overflow-x: hidden;
+    visibility: visible;
+    opacity: 1;
+    touch-action: auto;
+  }
+
+  .logo-mobile {
+    font-size: 6.5px; 
+    margin-top: 35%; 
+    text-align: center;
+  }
+
+  .logo-text-mobile {
+    font-size: 14px; 
+    text-align: center; 
+    margin-top: 5%;
+  }
+
+  .y21-mobile {
+    font-size: 9px; 
+    margin-top: 35%; 
+    text-align: center;
+  }
+
+  .y21-text-mobile {
+    font-size: 14px; 
+    text-align: center; 
+    margin-top: 5%;
+  }
+
+  .y22-mobile {
+    font-size: 9px; 
+    text-align: center; 
+    margin-top: 10%;
+  }
+  
+  .y22-text-mobile {
+    font-size: 14px; 
+    text-align: center; 
+    margin-top: 5%;
+  }
+
+  .future-mobile {
+    font-size: 7.5px; 
+    text-align: center; 
+    margin-top: 10%
+  }
+
+  .future-text-mobile {
+    font-size: 14px; 
+    text-align: center; 
+    margin-top: 5%;
+  }
+
+  .wanted-mobile {
+    border: dotted 1px #00ff00; 
+    width: 270px; 
+    padding-top: 5%; 
+    padding-bottom: 5%; 
+    padding-right: 2%;
+    margin-top: 10%; 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto
+  }
+
+  .wanted-logo-mobile {
+    font-size: 7px;
+    text-align: center;
+  }
+
+  .wanted-dead-mobile {
+    font-size: 3px
+  }
+
+  .wanted-skills-mobile {
+    font-family: monospace; 
+    font-size: 7px;
+    text-align: start;
+  }
+
+  .footer-mobile {
+    display: flex; 
+    justify-content: space-around; 
+    font-size: 13px; 
+    color:#00ff00; 
+    padding-top: 10%; 
+    margin-bottom: 5%;
+  }
+}
+
+/*321**321**321**321**321**321**321**321**321**321**321**321**321**321**321**321**321**321**321**321**321**321**321**321**321**321**321**321**321**321**321*/
+
+@media only screen and (min-width: 321px) {
+  
+  .space-mobile {
+    font-family: monospace;
+    margin-top: 20%;
+    position: absolute;
+    left: -90%;
+  }
+
+  .container {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  .main-mobile {
+    display: block; 
+    height: 2600px; 
+    position: relative; 
+    overflow: hidden;
+    visibility: visible;
+    opacity: 1;
+    touch-action: auto;
+  }
+
+  .logo-mobile {
+    font-size: 7px; 
+    margin-top: 35%; 
+    text-align: center;
+  }
+
+  .logo-text-mobile {
+    font-size: 16px; 
+    text-align: center; 
+    margin-top: 5%;
+  }
+
+  .y21-mobile {
+    font-size: 10px; 
+    margin-top: 35%; 
+    text-align: center;
+  }
+
+  .y21-text-mobile {
+    font-size: 16px; 
+    text-align: center; 
+    margin-top: 5%;
+  }
+
+  .y22-mobile {
+    font-size: 10px; 
+    text-align: center; 
+    margin-top: 10%;
+  }
+  
+  .y22-text-mobile {
+    font-size: 16px; 
+    text-align: center; 
+    margin-top: 5%;
+  }
+
+  .future-mobile {
+    font-size: 8px; 
+    text-align: center; 
+    margin-top: 10%
+  }
+
+  .future-text-mobile {
+    font-size: 16px; 
+    text-align: center; 
+    margin-top: 5%;
+  }
+
+  .wanted-mobile {
+    border: dotted 1px #00ff00; 
+    width: 300px; 
+    padding-top: 5%; 
+    padding-bottom: 5%; 
+    padding-right: 2%;
+    margin-top: 10%; 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto
+  }
+
+  .wanted-logo-mobile {
+    font-size: 8px;
+    text-align: center;
+  }
+
+  .wanted-dead-mobile {
+    font-size: 3.5px
+  }
+
+  .wanted-skills-mobile {
+    font-family: monospace; 
+    font-size: 8px;
+    text-align: start;
+  }
+
+  .footer-mobile {
+    display: flex; 
+    justify-content: space-around; 
+    font-size: 15px; 
+    color:#00ff00; 
+    padding-top: 10%; 
+    margin-bottom: 5%;
+  }
+}
+
+/*375**375**375**375**375**375**375**375**375**375**375**375**375**375**375**375**375**375**375**375**375**375**375**375**375**375**375**375**375**375**375*/
+
+@media only screen and (min-width: 375px) {
+  
+  .space-mobile {
+    font-family: monospace;
+    margin-top: 20%;
+    position: absolute;
+    left: -90%;
+  }
+
+  .container {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+  }
+  
+  .main-mobile {
+    display: block; 
+    height: 2600px; 
+    position: relative; 
+    overflow: hidden;
+    visibility: visible;
+    opacity: 1;
+    touch-action: auto;
+  }
+
+  .logo-mobile {
+    font-size: 8px; 
+    margin-top: 45%; 
+    text-align: center;
+  }
+
+  .logo-text-mobile {
+    font-size: 17px; 
+    text-align: center; 
+    margin-top: 7%;
+  }
+
+  .y21-mobile {
+    font-size: 10px; 
+    margin-top: 45%; 
+    text-align: center;
+  }
+
+  .y21-text-mobile {
+    font-size: 17px; 
+    text-align: center; 
+    margin-top: 10%;
+  }
+
+  .y22-mobile {
+    font-size: 10px; 
+    text-align: center; 
+    margin-top: 15%;
+  }
+  
+  .y22-text-mobile {
+    font-size: 17px; 
+    text-align: center; 
+    margin-top: 10%;
+  }
+
+  .future-mobile {
+    font-size: 9px; 
+    text-align: center; 
+    margin-top: 15%
+  }
+
+  .future-text-mobile {
+    font-size: 17px; 
+    text-align: center; 
+    margin-top: 10%;
+  }
+
+  .wanted-mobile {
+    border: dotted 1px #00ff00; 
+    width: 350px; 
+    padding-top: 5%; 
+    padding-bottom: 5%; 
+    margin-top: 10%; 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto
+  }
+
+  .wanted-logo-mobile {
+    font-size: 9px;
+    text-align: center;
+  }
+
+  .wanted-dead-mobile {
+    font-size: 4px
+  }
+
+  .wanted-skills-mobile {
+    font-family: monospace ; 
+    font-size: 9px;
+    text-align: start;
+  }
+
+  .footer-mobile {
+    display: flex; 
+    justify-content: space-around; 
+    font-size: 15px; 
+    color:#00ff00; 
+    padding-top: 10%; 
+    margin-bottom: 5%;
+  }
+}
+
+/*425**425**425**425**425**425**425**425**425**425**425**425**425**425**425**425**425**425**425**425**425**425**425**425**425**425**425**425**425**425**425*/
+
+@media only screen and (min-width: 425px) {
+  
+  .space-mobile {
+    font-family: monospace;
+    margin-top: 20%;
+    position: absolute;
+    left: -90%;
+  }
+
+  .container {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+  }
+  
+  .main-mobile {
+    display: block; 
+    height: 2700; 
+    position: relative; 
+    overflow: hidden;
+    visibility: visible;
+    opacity: 1;
+    touch-action: auto;
+  }
+
+  .logo-mobile {
+    font-size: 9px; 
+    margin-top: 50%; 
+    text-align: center;
+  }
+
+  .logo-text-mobile {
+    font-size: 19px; 
+    text-align: center; 
+    margin-top: 7%;
+  }
+
+  .y21-mobile {
+    font-size: 12px; 
+    margin-top: 50%; 
+    text-align: center;
+  }
+
+  .y21-text-mobile {
+    font-size: 19px; 
+    text-align: center; 
+    margin-top: 10%;
+  }
+
+  .y22-mobile {
+    font-size: 12px; 
+    text-align: center; 
+    margin-top: 15%;
+  }
+  
+  .y22-text-mobile {
+    font-size: 19px; 
+    text-align: center; 
+    margin-top: 10%;
+  }
+
+  .future-mobile {
+    font-size: 10.5px; 
+    text-align: center; 
+    margin-top: 15%
+  }
+
+  .future-text-mobile {
+    font-size: 19px; 
+    text-align: center; 
+    margin-top: 10%;
+  }
+
+  .wanted-mobile {
+    border: dotted 1px #00ff00; 
+    width: 390px; 
+    padding-top: 5%; 
+    padding-bottom: 5%; 
+    margin-top: 10%; 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto
+  }
+
+  .wanted-logo-mobile {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .wanted-dead-mobile {
+    font-size: 4.5px
+  }
+
+  .wanted-skills-mobile {
+    font-family: monospace; 
+    font-size: 10px;
+    text-align: start;
+  }
+
+  .footer-mobile {
+    display: flex; 
+    justify-content: space-around; 
+    font-size: 15px; 
+    color:#00ff00; 
+    padding-top: 10%; 
+    margin-bottom: 5%;
+  }
+}
+
+/*768**768**768**768**768**768**768**768**768**768**768**768**768**768**768**768**768**768**768**768**768**768**768**768**768**768**768**768**768**768**768*/
+
+@media only screen and (min-width: 768px) {
+
+  .space-mobile {
+    font-family: monospace;
+    margin-top: 25%;
+    position: absolute;
+    left: -90%;
+  }
+
+  .container {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  .main-mobile {
+    position: relative; 
+    overflow: hidden;
+    visibility: visible;
+    opacity: 1;
+    touch-action: auto;
+  }
+
+  .logo-mobile {
+    font-size: 15px; 
+    margin-top: 30%; 
+    text-align: center;
+  }
+
+  .logo-text-mobile {
+    font-size: 22px; 
+    text-align: center; 
+  }
+
+  .years-container-mobile {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+  }
+
+  .years-21 {
+    margin-right: 6%;
+  }
+
+  .y21-mobile {
+    font-size: 12px;  
+    text-align: center;
+  }
+
+  .y21-text-mobile {
+    font-size: 18px; 
+    text-align: center; 
+  }
+
+  .y22-mobile {
+    font-size: 12px; 
+    text-align: center; 
+  }
+  
+  .y22-text-mobile {
+    font-size: 18px; 
+    text-align: center; 
+  }
+
+  .future-mobile {
+    font-size: 12px; 
+    text-align: center; 
+  }
+
+  .future-text-mobile {
+    font-size: 18px; 
+    text-align: center; 
+  }
+
+  .wanted-mobile {
+    border: dotted 1px #00ff00; 
+    width: 600px; 
+    padding-top: 5%; 
+    padding-bottom: 5%; 
+    margin-top: 10%; 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto
+  }
+
+  .wanted-logo-mobile {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .wanted-dead-mobile {
+    font-size: 6px
+  }
+
+  .wanted-skills-mobile {
+    font-family: monospace; 
+    font-size: 13.5px;
+    text-align: start;
+    margin-left: 7%;
+  }
+
+  .footer-mobile {
+    display: flex; 
+    justify-content: space-around; 
+    font-size: 19px; 
+    color:#00ff00; 
+    padding-top: 10%; 
+    margin-bottom: 5%;
+  }
+}
