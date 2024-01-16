@@ -16,6 +16,11 @@ html {
 :focus,:active{outline: none;}
 A:focus,a:active{outline: none;}
 
+::selection {
+    background: #00ff00
+    color: black
+}
+
 nav,footer,header,aside{display: block};
 
 html,body{
