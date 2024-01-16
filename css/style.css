@@ -4302,6 +4302,11 @@ body {
       margin-left: 10%
   }
 
+  .contact-1680::selection {
+      background: #ff0000;
+      color: black
+  }
+
   .contact-1680 {
     position: absolute;
 
