@@ -17,8 +17,8 @@ html {
 A:focus,a:active{outline: none;}
 
 ::selection {
-    background: #00ff00
-    color: black
+    background: #00ff00;
+    color: black;
 }
 
 nav,footer,header,aside{display: block};
