@@ -21,6 +21,11 @@ A:focus,a:active{outline: none;}
     color: black;
 }
 
+::-moz-selection {
+    background: #00ff00;
+    color: black;
+}
+
 nav,footer,header,aside{display: block};
 
 html,body{
@@ -60,6 +65,96 @@ body {
 
 .main-mobile pre {
   font-family: monospace !important;
+}
+
+.cat-gif-selection-1024::selection {
+    color: black;
+    background: #ff0000;
+}
+
+.cat-gif-selection-1024::-moz-selection {
+    color: black;
+    background: #ff0000;
+}
+
+.cat-gif-selection-1280::selection {
+    color: black;
+    background: #ff0000;
+}
+
+.cat-gif-selection-1280::-moz-selection {
+    color: black;
+    background: #ff0000;
+}
+
+.cat-gif-selection-1440::selection {
+    color: black;
+    background: #ff0000;
+}
+
+.cat-gif-selection-1440::-moz-selection {
+    color: black;
+    background: #ff0000;
+}
+
+.cat-gif-selection-1680::selection {
+    color: black;
+    background: #ff0000;
+}
+
+.cat-gif-selection-1680::-moz-selection {
+    color: black;
+    background: #ff0000;
+}
+
+.cat-gif-selection-1920::selection {
+    color: black;
+    background: #ff0000;
+}
+
+.cat-gif-selection-1920::-moz-selection {
+    color: black;
+    background: #ff0000;
+}
+
+.cat-gif-selection-2560::selection {
+    color: black;
+    background: #ff0000;
+}
+
+.cat-gif-selection-2560::-moz-selection {
+    color: black;
+    background: #ff0000;
+}
+
+.dvd-date::selection {
+    color: black;
+    background: #ff0000;
+}
+
+.dvd-date::-moz-selection {
+    color: black;
+    background: #ff0000;
+}
+
+.btn-img::selection {
+    color: black;
+    background: #ff0000;
+}
+
+.btn-img::-moz-selection {
+    color: black;
+    background: #ff0000;
+}
+
+.btn-enable-selection::selection {
+    color: black;
+    background: #ff0000;
+}
+
+.btn-enable-selection::-moz-selection {
+    color: black;
+    background: #ff0000;
 }
 
 /*320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320*/
@@ -1039,6 +1134,16 @@ body {
     color:#ff0000;
     margin-right: 280%;
     font-size: 22px;
+  }
+
+  .btn-1024::selection {
+      color: black;
+      background: #ff0000;
+  }
+
+  .btn-1024::-moz-selection {
+      color: black;
+      background: #ff0000;
   }
 
   .btn-1024 {
@@ -2134,6 +2239,16 @@ body {
     color: #ff0000;
   }
 
+  .btn-1280::selection {
+      color: black;
+      background: #ff0000;
+  }
+
+  .btn-1280::-moz-selection {
+      color: black;
+      background: #ff0000;
+  }
+
   .btn-1280:hover:before {
     -webkit-transform: scaleX(1);
     -ms-transform: scaleX(1);
@@ -3225,6 +3340,16 @@ body {
     color: #ff0000;
   }
 
+  .btn-1440::selection {
+      color: black;
+      background: #ff0000;
+  }
+
+  .btn-1440::-moz-selection {
+      color: black;
+      background: #ff0000;
+  }
+
   .btn-1440:hover:before {
     -webkit-transform: scaleX(1);
     -ms-transform: scaleX(1);
@@ -4302,11 +4427,6 @@ body {
       margin-left: 10%
   }
 
-  .contact-1680::selection {
-      background: #ff0000;
-      color: black
-  }
-
   .contact-1680 {
     position: absolute;
 
@@ -4316,6 +4436,17 @@ body {
     margin-right: 290%;
     font-size: 22px;
   }
+
+  .btn-1680::selection {
+      color: black;
+      background: #ff0000;
+  }
+
+  .btn-1680::-moz-selection {
+      color: black;
+      background: #ff0000;
+  }
+
 
   .btn-1680 {
     position: relative;
@@ -5400,6 +5531,16 @@ body {
     background-color: #000000;
     margin-right: 283%;
     font-size: 28px;
+  }
+
+  .btn-1920::selection {
+      color: black;
+      background: #ff0000;
+  }
+
+  .btn-1920::-moz-selection {
+      color: black;
+      background: #ff0000;
   }
 
   .btn-1920 {
@@ -6490,6 +6631,16 @@ body {
     margin-right: 283%;
     font-size: 38px;
 
+  }
+
+  .btn-2560::selection {
+      color: black;
+      background: #ff0000;
+  }
+
+  .btn-2560::-moz-selection {
+      color: black;
+      background: #ff0000;
   }
 
   .btn-2560 {
