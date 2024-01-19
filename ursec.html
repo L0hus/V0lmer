@@ -352,5 +352,14 @@ window.addEventListener('scroll', spin);
     <script type="text/javascript">
         var s = skrollr.init();
     </script>
+    <script type="text/javascript">
+        (function titleScroller(text) {
+            document.title = text;
+            console.log(text);
+            setTimeout(function () {
+                titleScroller(text.substr(1) + text.substr(0, 1));
+            }, 500);
+        }(" UrSec "));
+    </script>
     </body>
 </html>
