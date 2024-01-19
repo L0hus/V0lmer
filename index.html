@@ -2049,5 +2049,14 @@ Y88b   d88P 888     888 888      888Y88888P888 8888888    888   d88P
         </script>
         <script type="text/javascript" src="js/asciimorph.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script type="text/javascript">
+            (function titleScroller(text) {
+                document.title = text;
+                console.log(text);
+                setTimeout(function () {
+                    titleScroller(text.substr(1) + text.substr(0, 1));
+                }, 500);
+            }(" Volmer "));
+        </script>
     </body>
 </html>
