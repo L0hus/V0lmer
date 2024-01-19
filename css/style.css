@@ -157,6 +157,36 @@ body {
     background: #ff0000;
 }
 
+.ursec-ascii-content b::selection {
+  color: #000000;
+  background: #a21aff;
+}
+
+.ursec-ad-img-1680::selection {
+  color: #000000;
+  background: #a21aff; 
+}
+
+.urfu-art b::selection {
+  color: #000000;
+  background: #ffffff;
+}
+
+.urfu-img-1680::selection {
+  color: #000000;
+  background: #ffffff;
+}
+
+.tenderhack-art b::selection {
+  color: #000000;
+  background: #ffa200
+}
+
+.hackaton-img-1680::selection {
+  color:#000000;
+  background: #ffa200
+}
+
 /*320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320*/
 
 @media only screen and (max-width: 320px) {
