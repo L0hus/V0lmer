@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Playroom</title>
-		<link rel="icon" href="img/shrug.ico" type="image/x-icon">
+	<link rel="icon" href="img/shrug.ico" type="image/x-icon">
         <link rel="stylesheet" href="css/style.css">
         <link href='https://fonts.googleapis.com/css?family=VT323' rel='stylesheet'>
         <link href='https://fonts.googleapis.com/css?family=Play:400,700' rel='stylesheet' type='text/css'>
@@ -100,6 +100,30 @@
             	</div>
         	</div>
         	<canvas id="canvas" class="game"></canvas>
+		<div class="gamepad-n" style="display: flex; justify-content: start; margin-left: 5%; margin-top: 16%; margin-left: 30%;">
+			<div id="gamepad-S" class="gamepad-S">
+			   S
+		   </div>
+		   <div style="margin-left: 7%">
+			 <p style="margin-bottom: 6%;font-size: 20px">Press to move</p>
+			 <div class="gamepad-arrows">
+			   <div id="gamepad-up" class="gamepad-Up">
+				 &#8593;
+			   </div>
+			   <div class="gamepad-arrows-container">
+				 <div id="gamepad-left" class="gamepad-Left">
+				   &#8592;
+				 </div>
+				 <div id="gamepad-down" class="gamepad-Down">
+				   &#8595;
+				 </div>
+				 <div id="gamepad-right" class="gamepad-Right">
+				   &#8594;
+				 </div>
+			   </div>
+			 </div>
+		   </div>
+		</div>
 		</div>
 		<div class="sry-1024">
 <p style="text-align: center; font-family: 'VT323', monospace; font-size: 24px; margin-top: 30%;">This page is not adapted to<br>
@@ -117,8 +141,10 @@
             $("#second-patern").click(function() {
                 $('.logo').toggleClass('logo-active');
                 $('.desktop').toggleClass('desktop-active');
-				$('.game').removeClass('game-active');
-				$('.lihux-hi').removeClass('linux-hi-active')
+		$('.game').removeClass('game-active');
+		$('.linux').removeClass('linux-active')
+		$('.lihux-hi').removeClass('linux-hi-active');
+		$('.gamepad-n').removeClass('gamepad-a');
             });
 
             $("#linux-hi").click(function() {
@@ -127,8 +153,9 @@
 
             $("#invaders").click(function() {
                 $('.game').toggleClass('game-active');
-				$('.linux-hi').removeClass('linux-hi-active');
-				$('.linux').toggleClass('linux-active');
+		$('.linux-hi').removeClass('linux-hi-active');
+		$('.linux').toggleClass('linux-active');
+		$('.gamepad-n').toggleClass('gamepad-a');
             });
         </script>
         <script>
