@@ -187,6 +187,75 @@ body {
   background: #ffa200
 }
 
+.gamepad-S {
+  border: solid 1px #00ff00;
+  border-radius: 10px;
+  padding: 1% 1.2% 1% 1.2%;
+  font-size: 30px;
+  position: absolute;
+  transition: 0.2s;
+  margin-top: 1%
+}
+
+.gamepad-S-click {
+  color: black;
+  background: #00ff00;
+}
+
+.gamepad-Up {
+  position: absolute;
+  font-size: 30px;
+  transition: 0.2s;
+  margin-left: 2.5%;
+}
+
+.gamepad-up {
+  margin-top: -1%;
+}
+
+.gamepad-Left {
+  font-size: 30px;
+  transition: 0.2s;
+  position: absolute;
+  margin-top: 2.5%;
+}
+
+.gamepad-left {
+  margin-left: -1%;
+}
+
+.gamepad-Down {
+  font-size: 30px;
+  transition: 0.2s;
+  position: absolute;
+  margin-left: 2.5%;
+  margin-top: 2.5%
+}
+
+.gamepad-down {
+  margin-top: 4%;
+}
+
+.gamepad-Right {
+  font-size: 30px;
+  transition: 0.2s;
+  position: absolute;
+  margin-left: 5%;
+  margin-top: 2.5%
+}
+
+.gamepad-right {
+  margin-left: 6%;
+}
+
+.gamepad-n {
+  opacity: 0;
+}
+
+.gamepad-a {
+  opacity: 1;
+}
+
 /*320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320**320*/
 
 @media only screen and (max-width: 320px) {
