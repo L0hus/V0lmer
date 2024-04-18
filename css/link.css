@@ -7,6 +7,16 @@ a {
     color: #0f0;
 }
 
+::selection {
+    background: #00ff00;
+    color: black;
+}
+
+::-moz-selection {
+    background: #00ff00;
+    color: black;
+}
+
 .Stack {
     display: grid;
     grid-template-columns: 1fr;
