@@ -40,7 +40,7 @@
     }
 }
 
-@keyframes Glitch {
+@keyframes glitch {
     0% {
         text-shadow: -2px 3px 0 red, 2px -3px 0 blue;
         transform: translate(var(--glitch-translate));
