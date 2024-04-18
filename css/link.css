@@ -1,3 +1,12 @@
+body {
+    background-color: black;
+    color: #0f0;
+}
+
+a {
+    color: #0f0;
+}
+
 .Stack {
     display: grid;
     grid-template-columns: 1fr;
