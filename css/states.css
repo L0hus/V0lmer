@@ -1,0 +1,377 @@
+body {
+    background-color: black;
+    color: #0f0;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    opacity: 0;
+    width: 900px;
+    color: #f00;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+::selection {
+    color: black;
+    background-color: #00ff00;
+}
+
+::-moz-selection {
+    background: #00ff00;
+    color: black;
+}
+
+p {
+    opacity: 0;
+    width: 900px;
+    margin: 30px 0px 30px 0px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.carousel {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    width: 900px; /* Ширина карусели */
+}
+
+img {
+    object-fit: cover;
+}
+
+.numeration {
+    position: absolute;
+    top: 3px;
+    right: 75px;
+    color: #0f0;
+    font-size: 14px;
+    background-color: rgb(0,0,0,0.5);
+    padding: 0px 3px 3px 3px
+}
+
+.slide {
+    display: none;
+    width: 100%;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+.prev {
+    color: #0f0;
+    background-color: rgb(0, 0, 0, 0.5);
+    font-size: 40px;
+    border: none;
+    padding: 2000px 20px 2000px 20px;
+    opacity: 0.3;
+    transition: 1s;
+}
+
+.prev:hover {
+    opacity: 1;
+    transition: 1s;
+}
+
+.next {
+    right: 0px;
+    color: #0f0;
+    background-color: rgb(0, 0, 0, 0.5);
+    font-size: 40px;
+    border: none;
+    padding: 2000px 20px 2000px 20px;
+    opacity: 0.3;
+    transition: 1s;
+}
+
+.next:hover {
+    opacity: 1;
+    transition: 1s;
+}
+
+.stateContent{
+    background-color: black;
+    z-index: 1;
+}
+
+.stateContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+
+.image-container {
+    -webkit-animation: opacity 1s;
+}
+
+.carousel-container {
+    -webkit-animation: opacity 1s;
+}
+
+@-webkit-keyframes opacity {
+    from { opacity: 0; } to { opacity: 1; }
+}
+
+.quotation-content p{
+    width: 850px;
+    text-align: start;
+    margin-left: 50px;
+    display: flex;
+}
+
+.quotation-content a{
+    width: 850px;
+    text-align: start;
+    margin-left: 50px;
+    display: flex;
+}
+
+.quotation-container {
+    width: 900px;
+}
+
+.quotation-content p::before {
+    border-left: #00ff00 1px solid;
+    content: "";
+    left: -50px;
+    position: relative;
+}
+
+.quotation-content a::before {
+    border-left: #00ff00 1px solid;
+    content: "";
+    left: -50px;
+    position: relative;
+}
+
+footer a {
+    opacity: 1 !important;
+}
+
+.terminal_container {
+    display: none;
+    width: 900px;
+    text-align: start;
+}
+
+.terminal {
+    width: 900px;
+    overflow: hidden;
+    transform: translateY(-3px);
+    z-index: 2000;
+}
+
+.terminal pre {
+    display: flex;
+    flex-direction: row;
+}
+
+.terminal pre p {
+    overflow: hidden;
+}
+
+.terminal #PWN_First {
+    animation: typing 7s steps(15, end);
+    animation-iteration-count: infinite;
+}
+
+.terminal #PWN_Second {
+    animation: typing2 5s steps(28, end);
+    animation-iteration-count: infinite;
+}
+
+.terminal #PWN_Third {
+    animation: typing3 6s steps(18, end);
+    animation-iteration-count: infinite;
+}
+
+.terminal #PWN_Fourth {
+    animation: typing4 4s steps(15, end);
+    animation-iteration-count: infinite;
+}
+
+.terminal #PWN_Fifth {
+    animation: typing5 5.5s steps(4, end);
+    animation-iteration-count: infinite;
+}
+
+.terminal #PWN_Sixth {
+    animation: typing6 4s steps(2, end);
+    animation-iteration-count: infinite;
+}
+
+.terminal #PWN_Seventh {
+    animation: typing7 6s steps(12, end);
+    animation-iteration-count: infinite;
+}
+
+.terminal #PWN_Eighth {
+    animation: typing8 5s steps(24, end);
+    animation-iteration-count: infinite;
+}
+
+.terminal #PWN_Ninth {
+    animation: typing9 6s steps(31, end);
+    animation-iteration-count: infinite;
+}
+
+.terminal p {
+    height: 30px;
+    margin: 10px 0px 10px 0px;
+}
+
+span {
+    display: block;
+    animation: blink 0.8s infinite;
+    padding: 1px 0px;
+    height: 20px;
+    margin-top: 14px;
+    background-color: #00ff00;
+}
+
+@keyframes blink {
+    to{
+        opacity: 0.3;
+    }
+}
+@keyframes typing {
+    0%{
+        width: 3%;
+    }
+    2%{
+        width: 3%;
+    }
+    10%{
+        width: 21%;
+    }
+    100%{
+        width: 21%;
+    }
+}
+
+@keyframes typing2 {
+    0%{
+        width: 3%;
+    }
+    2%{
+        width: 3%;
+    }
+    10%{
+        width: 34%;
+    }
+    100%{
+        width: 34%;
+    }
+}
+
+@keyframes typing3 {
+    0%{
+        width: 3%;
+    }
+    2%{
+        width: 3%;
+    }
+    10%{
+        width: 24%;
+    }
+    100%{
+        width: 24%;
+    }
+}
+
+@keyframes typing4 {
+    0%{
+        width: 3%;
+    }
+    2%{
+        width: 3%;
+    }
+    10%{
+        width: 22%;
+    }
+    100%{
+        width: 22%;
+    }
+}
+
+@keyframes typing5 {
+    0%{
+        width: 3%;
+    }
+    2%{
+        width: 3%;
+    }
+    10%{
+        width: 9%;
+    }
+    100%{
+        width: 9%;
+    }
+}
+
+@keyframes typing6 {
+    0%{
+        width: 3%;
+    }
+    2%{
+        width: 3%;
+    }
+    10%{
+        width: 6%;
+    }
+    100%{
+        width: 6%;
+    }
+}
+
+@keyframes typing7 {
+    0%{
+        width: 3%;
+    }
+    2%{
+        width: 3%;
+    }
+    10%{
+        width: 17%;
+    }
+    100%{
+        width: 17%;
+    }
+}
+
+@keyframes typing8 {
+    0%{
+        width: 3%;
+    }
+    2%{
+        width: 3%;
+    }
+    10%{
+        width: 30.5%;
+    }
+    100%{
+        width: 30.5%;
+    }
+}
+
+@keyframes typing9 {
+    0%{
+        width: 3%;
+    }
+    2%{
+        width: 3%;
+    }
+    10%{
+        width: 38%;
+    }
+    100%{
+        width: 38%;
+    }
+}

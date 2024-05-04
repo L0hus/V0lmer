@@ -1,0 +1,224 @@
+body {
+    background: black;
+    color: #0f0;
+    overflow-x: hidden;
+    width: 100%;
+    height: 105%;
+    box-sizing: border-box;
+    background-color: #000000;
+    background-image: radial-gradient(#11581E, #041607), url("https://media.giphy.com/media/oEI9uBYSzLpBK/giphy.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    color: #f00;
+    text-decoration: none;
+}
+
+p {
+    font-family: 'VT323', monospace;
+    font-size: 16px
+}
+
+pre {
+    font-size: 11px;
+}
+
+.Nav_Container {
+    font-family: 'VT323', monospace;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    align-items: flex-start;
+}
+
+.file_text {
+    color: #0f0;
+    font-family: 'VT323', monospace;
+    font-size: 16px
+}
+
+.V0lmer_dir {
+    color: #0f0;
+    z-index: 1;
+}
+
+.UrSec_dir {
+    color: #0f0;
+}
+
+.Art_dir {
+    color: #0f0;
+}
+
+.Playroom_dir {
+    color: #0f0;
+}
+
+.Logo_jpg {
+    color: #00ff00;
+}
+
+.Nav_Container {
+    display: flex;
+    font-family: 'VT323', monospace;
+}
+
+.Properties_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 417px;
+}
+
+.Properties_content pre {
+    text-align: center;
+}
+
+.Properties_Photo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: dashed 1px #0f0;
+    border-radius: 15px;
+    padding: 5px 10px 10px 5px;
+}
+
+.Properties_Info {
+    border: dashed 1px #0f0;
+    border-radius: 15px;
+    margin-top: 10px;
+    padding-left: 108px;
+    padding-right: 108px;
+    width: 200px;
+}
+
+.Properties_Content {
+    border: solid 1px #00ff00;
+    border-radius: 10px;
+    width: 450px;
+    height: 1000px;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.V0lmer_dir_Properties {
+    opacity: 0;
+    position: absolute;
+}
+
+.V0lmer_file_Properties {
+    opacity: 0;
+    position: absolute;
+}
+
+.Links_file_Properties {
+    opacity: 0;
+    position: absolute;
+}
+
+.UrSec_dir_Properties {
+    opacity: 0;
+    position: absolute;
+}
+
+.Logo_jpg_Properties {
+    opacity: 0;
+    position: absolute;
+}
+
+.UrSec_file_Properties {
+    opacity: 0;
+    position: absolute;
+}
+
+.Art_dir_Properties {
+    opacity: 0;
+    position: absolute;
+}
+
+.CTF_file_Properties {
+    opacity: 0;
+    position: absolute;
+}
+
+.OSINT_file_Properties {
+    opacity: 0;
+    position: absolute;
+}
+
+.Crypto_file_Properties {
+    opacity: 0;
+    position: absolute;
+}
+
+.Playroom_dir_Properties {
+    opacity: 0;
+    position: absolute;
+}
+
+.Playroom_file_Properties {
+    opacity: 0;
+    position: absolute;
+}
+
+.noise {
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    height: 105%;
+    background-image: url("https://media.giphy.com/media/oEI9uBYSzLpBK/giphy.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    opacity: .02;
+}
+
+.overlay {
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    height: 105%;
+    background:
+        repeating-linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 0,
+        rgba(0, 0, 0, 0.3) 50%,
+        rgba(0, 0, 0, 0) 100%);
+    background-size: auto 4px;
+    z-index: 1;
+}
+
+.overlay::before {
+    content: "";
+    pointer-events: none;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(
+        0deg,
+        transparent 0%,
+        rgba(32, 128, 32, 0.2) 2%,
+        rgba(32, 128, 32, 0.8) 3%,
+        rgba(32, 128, 32, 0.2) 3%,
+        transparent 100%);
+    background-repeat: no-repeat;
+    animation: scan 7.5s linear 0s infinite;
+}
+
+@keyframes scan {
+    0%        { background-position: 0 -100vh; }
+    35%, 100% { background-position: 0 100vh; }
+}
+  
