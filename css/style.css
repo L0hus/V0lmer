@@ -59,6 +59,11 @@ body {
     overflow-x: hidden;
 }
 
+.v0lmer_nav:hove {
+    opacity: 0.3;
+    transition: 0.3s;
+}
+
 .hide {
   visibility: hidden;
 }
