@@ -59,7 +59,7 @@ body {
     overflow-x: hidden;
 }
 
-.v0lmer_nav:hove {
+.v0lmer_nav:hover {
     opacity: 0.3;
     transition: 0.3s;
 }
