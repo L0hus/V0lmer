@@ -59,9 +59,9 @@ body {
     overflow-x: hidden;
 }
 
-.v0lmer_nav:hover {
-    opacity: 0.3;
-    transition: 0.3s;
+.v0lmer_hov:hover {
+  opacity: 0.3;
+  transition: 0.3s;
 }
 
 .hide {
